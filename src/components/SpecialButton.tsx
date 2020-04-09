@@ -20,14 +20,14 @@ export default class SpecialButton extends React.Component<ISpecialButtonProps> 
       <Fragment>
         {!isButtonPressed ? (
           <Button
-            content="Riverbend - Candidate!"
+            content="Ward 12 - Candidates!"
             color="orange"
             onClick={callbackMethod}
           />
         ) : (
           <Button
-            content="Minimize Profile"
-            color="black"
+            content="Minimize Profiles"
+            color="blue"
             onClick={callbackMethodToGoBack}
           />
         )}

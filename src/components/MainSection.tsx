@@ -39,7 +39,7 @@ export default class MainSection extends React.Component<IMainSectionProps> {
           {isButtonPressed ? (      // ? is asking you if its true or false
             <ProfileCard userName={userName} />
           ) : (
-            <h1>Candidate Card will appear here when the button is pressed.</h1>
+            <h1>Candidates Card will appear here when the button is pressed.</h1>
           )}
         </Grid.Row>
         <Grid.Row centered>
